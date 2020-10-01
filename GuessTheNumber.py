@@ -5,6 +5,7 @@ while True:
     b = int(input("Enter random Number \n"))
     if a==b:
         print("Guessed Number is Currect")
+        break
     elif a>b:
         print("guess another high Number")
     else:
